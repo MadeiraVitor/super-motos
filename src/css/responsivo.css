@@ -1,0 +1,58 @@
+@media(max-width: 750px){
+    body {
+        font-size: 12px;
+    }
+
+    main {
+        background-image: url(../imagens/bg-mobile.jpg);
+    }
+
+    .super-motos {
+        flex-direction: column;
+        padding: 20px 0;
+    }
+
+    .cartao-moto {
+        max-width: 300px;
+    }
+
+    .cartao-moto .cartao-topo {
+        padding: 30px 40px 0;
+    }
+
+    .cartao-moto .cartao-imagem {
+        width: 250px;
+        height: 200px;
+    }
+
+    .cartao-moto img {
+        top: 30px;
+        right: 15px;
+    }
+
+    .cartao-moto .cartao-informacoes {
+        padding: 75px 30px 30px;
+    }
+
+    .listagem {
+        max-width: 300px;
+    }
+
+    .listagem ul {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+
+    .listagem .moto {
+        width: 146px;
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+        border-radius: 10px;
+        margin-bottom: 0;
+    }
+
+    .listagem .moto span {
+       padding-right: 5px; 
+    }
+}

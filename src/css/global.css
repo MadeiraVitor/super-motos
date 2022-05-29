@@ -1,0 +1,18 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../imagens/background.gif);
+    background-size: cover;
+}
+
+.super-motos {
+    display: flex;
+    gap: 30px;
+    padding: 20px 0;
+}

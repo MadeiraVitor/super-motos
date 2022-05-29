@@ -1,0 +1,97 @@
+.cartao-moto {
+    display: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.cartao-moto .cartao-topo {
+    padding: 30px 40px 0;
+}
+
+.cartao-moto .nome {
+    margin-bottom: 5px;
+}
+
+.cartao-moto .marca {
+    font-size: 12px;
+    background-color: #FFFFFF;
+    opacity: 0.7;
+    border-radius: 10px;
+    padding: 2px 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.cartao-moto .detalhes {
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cartao-moto .cartao-imagem {
+    width: 350px;
+    height: 300px;
+}
+
+.cartao-moto img {
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    top: 70px
+}
+
+.cartao-moto .cartao-informacoes {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 80px 30px 50px;
+    margin-top: -70px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.cartao-moto .cartao-informacoes h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #6B727A;
+}
+
+.cartao-moto .cartao-informacoes .ficha-tecnica {
+    padding: 0 10px;
+    width: 263px;
+}
+
+.cartao-moto .cartao-informacoes .ficha-tecnica ul li {
+    border-bottom: 1px solid #C3C4C5;
+    padding: 0 0 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.cartao-moto.aberto {
+    display: block;
+}
+
+.bmw {
+    background-color: #D3D3D1;
+}
+
+.kawasaki {
+    background-color: #69BD27;
+}
+
+.ducati {
+    background-color: #CB1517;
+}
+
+.suzuki {
+    background-color: #0092D6;
+}
+
+.honda {
+    background-color: #CC0000;
+}
+
+.yamaha {
+    background-color: #0035A6;
+}
